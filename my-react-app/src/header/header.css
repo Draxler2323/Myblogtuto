@@ -11,18 +11,30 @@
     position: absolute;
     top: 20%;
     font-size: 30px;
-    margin-top: 80px;
+    margin-top: 90px;
     display: flex;
     align-items: center;
+    color: red;
 }
 .headerTitlelg{
     position: absolute;
     top: 20%;
-    font-size: 100px;
+    font-size: 150px;
     align-items: center;
     display: flex;
     margin-top: 100px;
     color: floralwhite;
+}
+.headerTitleA{
+    position: absolute;
+    top: 20%;
+    font-size: 50px;
+    align-items: center;
+    display: flex;
+    margin-top: 280px;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
 }
 .headerimg{
     width: 100%;

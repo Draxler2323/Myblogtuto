@@ -1,5 +1,5 @@
 import "./header.css"
-import IMAGE from '../assets/image/bgaz.png'
+import IMAGE from '../assets/image/hd1.jpg'
 
 function Header() {
   return (
@@ -7,10 +7,11 @@ function Header() {
        <div className="headerTitle">
            <span className="headerTitlelg">My Blog</span>
            <span className="headerTitlesm">react & nodejs</span>
+           <button className="headerTitleA">Tech_AzedPro.com</button>
        </div>
        <img
        className="headerimg"
-        src={IMAGE} alt="" />
+        src={IMAGE}  alt="" />
     </div>
   )
 }
